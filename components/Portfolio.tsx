@@ -2,13 +2,11 @@ import Image from "next/image"
 
 export function Portfolio() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen max-w-screen-xl m-2 p-4 mx-auto">
       <header className="bg-primary text-primary-foreground py-12 md:py-16">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center space-y-4">
-            <div className="bg-primary-foreground/10 rounded-full p-4">
-              
-            </div>
+            <div className="bg-red-500 w-32 h-32 rounded-lg"></div>
             <h1 className="text-4xl md:text-5xl font-bold">Arham Shah</h1>
             <p className="text-lg md:text-xl font-medium">Computer Science Student</p>
             <p className="max-w-md text-muted-foreground">
